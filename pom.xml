@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>com.msahoo</groupId>
-	<artifactId>learn-spring-framework</artifactId>
+	<artifactId>spring-with-react-aws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-with-react-aws</name>
 	<description>Project setup for Spring Boot with react and aws</description>
