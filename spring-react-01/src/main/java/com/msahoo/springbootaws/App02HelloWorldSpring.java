@@ -1,6 +1,6 @@
-/*
-package com.msahoo.springbootaws.learn01.helloworld;
+package com.msahoo.springbootaws;
 
+import com.msahoo.springbootaws.config.HelloWorldConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App02HelloWorldSpring {
@@ -16,4 +16,3 @@ public class App02HelloWorldSpring {
         }
     }
 }
-*/

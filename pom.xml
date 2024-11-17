@@ -13,6 +13,7 @@
 	<groupId>com.msahoo</groupId>
 	<artifactId>spring-with-react-aws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>spring-with-react-aws</name>
 	<description>Project setup for Spring Boot with react and aws</description>
 
@@ -47,9 +48,19 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 		<finalName>spring-with-react-aws</finalName>
 	</build>
 
+	<modules>
+		<module>spring-react-01</module>
+	</modules>
 </project>
