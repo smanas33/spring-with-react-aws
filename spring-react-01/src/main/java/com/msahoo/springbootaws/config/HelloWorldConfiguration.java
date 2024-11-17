@@ -1,4 +1,4 @@
-package com.msahoo.springbootaws.learn01.config;
+package com.msahoo.springbootaws.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

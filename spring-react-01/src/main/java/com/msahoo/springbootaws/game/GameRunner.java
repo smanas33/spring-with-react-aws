@@ -1,4 +1,4 @@
-package com.msahoo.springbootaws.learn01.game;
+package com.msahoo.springbootaws.game;
 
 public class GameRunner {
 	private GamingConsole game;
