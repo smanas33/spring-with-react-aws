@@ -1,6 +1,6 @@
-package com.msahoo.helloworld.game;
+package com.msahoo.springbootaws.learn01.game;
 
-public class SuperContraGame implements GamingConsole{
+public class SuperContraGame implements GamingConsole {
 	public void up() {
 		System.out.println("Up");
 	}

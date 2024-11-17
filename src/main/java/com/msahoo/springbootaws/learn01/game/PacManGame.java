@@ -1,4 +1,4 @@
-package com.msahoo.helloworld.game;
+package com.msahoo.springbootaws.learn01.game;
 
 public class PacManGame implements GamingConsole {
 	public void up() {

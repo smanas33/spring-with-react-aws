@@ -1,6 +1,6 @@
-package com.msahoo.helloworld.game;
+package com.msahoo.springbootaws.learn01.game;
 
-public class MarioGame implements GamingConsole{
+public class MarioGame implements GamingConsole {
 	public void up() {
 		System.out.println("Jump");
 	}

@@ -1,4 +1,4 @@
-package com.msahoo.helloworld.game;
+package com.msahoo.springbootaws.learn01.game;
 
 public interface GamingConsole {
 	void up();
