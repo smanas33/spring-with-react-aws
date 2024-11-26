@@ -9,9 +9,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-react-02</artifactId>
-    <name>spring-bean-02</name>
-    <description>Project for Spring Beans</description>
+    <artifactId>spring-react-03</artifactId>
+    <name>bean-initialization-03</name>
+    <description>Project for Spring Bean initialization</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -25,11 +25,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msahoo.com.msahoo.springbootaws.GamingAppLauncherApplication</mainClass>
+                    <mainClass>com.msahoo.com.msahoo.springbootaws.LazyInitializationLauncherApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>spring-bean-02</finalName>
+        <finalName>bean-initialization-03</finalName>
     </build>
 
 </project>
