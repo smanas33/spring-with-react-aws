@@ -1,4 +1,4 @@
-package com.msahoo.springbootaws;
+package com.msahoo.springbootaws.example.f1;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

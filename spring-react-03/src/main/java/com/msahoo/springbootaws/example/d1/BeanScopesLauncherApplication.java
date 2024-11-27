@@ -1,4 +1,4 @@
-package com.msahoo.springbootaws;
+package com.msahoo.springbootaws.example.d1;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

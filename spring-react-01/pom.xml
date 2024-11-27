@@ -11,6 +11,7 @@
 
 	<artifactId>spring-react-01</artifactId>
 	<name>spring-bean-01</name>
+	<version>0.0.1-SNAPSHOT</version>
 	<description>Project for Spring Beans</description>
 
 	<properties>
