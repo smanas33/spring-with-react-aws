@@ -78,5 +78,6 @@
 		<module>spring-react-02</module>
         <module>spring-react-03</module>
 		<module>spring-react-04</module>
-	</modules>
+        <module>spring-react-05</module>
+    </modules>
 </project>

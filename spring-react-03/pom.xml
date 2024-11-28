@@ -33,7 +33,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msahoo.com.msahoo.springbootaws.example.e1.LazyInitializationLauncherApplication</mainClass>
+                    <mainClass>com.msahoo.springbootaws.example.e1.LazyInitializationLauncherApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
