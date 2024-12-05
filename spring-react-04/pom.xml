@@ -43,7 +43,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msahoo.com.msahoo.springbootaws.LearnJpaAndHibernateApplication</mainClass>
+                    <mainClass>com.msahoo.springbootaws.LearnJpaAndHibernateApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

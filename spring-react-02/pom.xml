@@ -25,7 +25,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msahoo.com.msahoo.springbootaws.GamingAppLauncherApplication</mainClass>
+                    <mainClass>com.msahoo.springbootaws.GamingAppLauncherApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
