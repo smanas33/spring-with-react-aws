@@ -9,9 +9,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-react-02</artifactId>
-    <name>spring-bean-02</name>
-    <description>Project for Spring Beans</description>
+    <artifactId>spring-react-04</artifactId>
+    <name>spring-boot-jpa-04</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>Project for Spring Boot with maven</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -19,17 +20,34 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.3.230</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.msahoo.springbootaws.GamingAppLauncherApplication</mainClass>
+                    <mainClass>com.msahoo.springbootaws.LearnJpaAndHibernateApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>spring-bean-02</finalName>
+        <finalName>spring-boot-jpa-04</finalName>
     </build>
 
 </project>
