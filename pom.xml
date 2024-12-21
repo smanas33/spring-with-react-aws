@@ -79,5 +79,6 @@
         <module>spring-react-06</module>
         <module>spring-react-07</module>
         <module>spring-react-08</module>
+        <module>spring-security-09</module>
     </modules>
 </project>
